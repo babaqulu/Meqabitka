@@ -285,3 +285,158 @@ background-color: white;
 
 
 } //main
+
+.sec1{
+  width: 100%;
+  height: 1620px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+
+    .connectboxes{
+      width: 1400px;
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+    .connectbox{
+      width: 1400px;
+      height: 152px;
+      background: var(--RecColor);
+      box-shadow: 0px 14px 72px rgba(0, 0, 0, 0.06), 0px 1.75302px 13.7441px rgba(0, 0, 0, 0.03);
+      border-radius: 18px;  
+      display: flex;  
+      justify-content: space-evenly;
+      align-items: center;
+
+      .techno{
+        width: 200px;
+        height: 152px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        h1{
+          width: 172px;
+          height: 23px;
+          font-family: 'Gilroy';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 130%;
+          color: var(--SmallTextColor);          
+        } //h1
+
+        .technobroad{
+          display: flex;
+          flex-direction: row;
+          width: 450px;
+        }
+
+        .wifi{
+            display: flex;
+            width: 240px;
+            height: 44px;
+            justify-content: space-between;
+
+            
+
+        .paragraph{
+          width: 200px;
+          height: 24px;
+          font-family: 'Gilroy';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 100%;
+          color: var(--SmallTextColor); 
+          } //p
+          .technonum{
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;            
+          } //technonum
+
+        .subparagraph{
+          width: 175px;
+          height:14px;
+          font-family: 'Gilroy';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 100%;
+          color: rgba(37, 37, 37, 0.5);          
+        }
+          
+
+      } //wifi
+      } //techno
+
+      .broadcast{
+        width: 130px;
+        height: 44px;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+
+        .broadpar{
+          width: 96px;
+          height: 35px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
+          .broadmainpar{
+            width: 96px;
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 100%;
+            color: #252525;
+
+            span{
+              font-size: 24px;
+            }
+
+          }
+          .broadsubp{
+            width: 81px;
+            height: 14px;
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 100%;
+            color: rgba(37, 37, 37, 0.5);            
+          }
+        }
+        
+        
+      } //broadcast
+
+    } //connectbox
+
+  } //connectboxes  
+
+} //sec1
+
+.sec2{
+  width: 1920px;
+  height: 728px;
+  background: #F0F9FA;  
+} //sec2
+
+.sec3{
+  width: 100%;
+  height:3000px;
+} //sec3
+
+.footer{
+  width: 1920px;
+  height: 330px;
+  background: #F0F9FA; 
+} //footer
